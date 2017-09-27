@@ -1,0 +1,4 @@
+pytorch安装教程
+http://www.cnblogs.com/bamtercelboo/p/7074366.html
+
+conda install -c peterjc123 pytorch=0.1.12 
