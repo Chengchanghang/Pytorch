@@ -1,0 +1,15 @@
+# CroosEntropy 每个minis_batch 需要的labels 是一个 （100,1）的数据，需要转化成（100,10）才能够用MESLoss计算。
+#在Entropy 里面的label是  一个数值，在MSE 里面是一个10维度的数
+import numpy as np
+
+def ver(y):
+    z = np.zeros(10,1)
+    z[i] = 1.0
+    return z
+   
+y = labels.data.numpy()
+y = y.reshape(100,1)
+ys = []
+for i in y:
+    ys.append(ver(i))
+    
