@@ -3,7 +3,7 @@
 import numpy as np
 
 def ver(y):
-    z = np.zeros(10,1)
+    z = np.zeros(10,1)）
     z[i] = 1.0
     return z
    
